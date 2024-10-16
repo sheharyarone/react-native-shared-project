@@ -1,0 +1,11 @@
+{
+    "translation": {
+    "logIn":"Kirjaudu sisään",
+    "yourAccount":"Kirjaudu sisään tilillesi",
+    "email/Phone":"Sähköposti/Puhelinnumero",
+    "password":"Salasana",
+    "forgotPassword":"Unohtuiko salasana?",
+    "anAccount":"Eikö sinulla ole tiliä?",
+    "signup":"Kirjaudu"
+    }
+}

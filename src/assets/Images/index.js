@@ -1,0 +1,25 @@
+const Images = {
+  splashBackground: require('./png/Splash.png'),
+  image1: require('./png/image1.png'),
+  image2: require('./png/image2.png'),
+  userIcon: require('./png/user.jpg'),
+  user: require('./png/userIcon.png'),
+  fakeIcon: require('./png/fakeIcon.png'),
+  groupIcon: require('./png/group.png'),
+  pdfImage: require('./png/pdfimage.png'),
+  docImage: require('./png/docImage.jpeg'),
+  chatDoc: require('./png/doc.jpeg'),
+  account: require('./png/account.png'),
+  addPlus: require('./png/addplus.png'),
+  dial: require('./png/dial.png'),
+  phonemute: require('./png/phonemute.png'),
+  video: require('./png/video.png'),
+  volume: require('./png/volume.png'),
+  call: require('./png/call.png'),
+  clock: require('./png/clock-needles.png'),
+  bubble: require('./png/bubble.png'),
+  EndCall: require('./png/EndCall.png'),
+  barIcon: require('./png/barIcon.png'),
+};
+
+export default Images;
