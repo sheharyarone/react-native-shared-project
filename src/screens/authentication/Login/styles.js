@@ -65,6 +65,28 @@ const styles = StyleSheet.create({
     fontSize: fonts.H9,
     color: colors.inputTextColor,
   },
+  phoneFieldContainer: {
+    width: '90%',
+    borderRadius: 10,
+    marginTop: '2.5%',
+    marginBottom: '2%',
+    borderColor: colors.inputColor,
+    borderWidth: 1,
+  },
+  phoneNoTextCon: {
+    paddingVertical: Platform.OS === 'android' ? hp(0.15) : hp(1.4),
+    justifyContent: 'center',
+    borderTopRightRadius: 10,
+    borderBottomRightRadius: 10,
+    backgroundColor: colors.inputColor,
+  },
+  phoneNoInputcon: {
+    backgroundColor: colors.inputColor,
+    // paddingVertical: Platform.OS === 'android' ? hp(1.15) : hp(0.15),
+  },
+  codeTextStyle: {
+    paddingVertical: Platform.OS === 'android' ? hp(0.15) : hp(0.15),
+  },
 });
 
 export default styles;
